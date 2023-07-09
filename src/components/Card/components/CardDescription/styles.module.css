@@ -1,0 +1,8 @@
+.cardDescriptionContainer {
+  font-size: 1.125rem;
+  font-family: 'Space Mono', sans-serif;
+  color: var(--text);
+
+  text-align: center;
+  line-height: 1.75rem;
+}

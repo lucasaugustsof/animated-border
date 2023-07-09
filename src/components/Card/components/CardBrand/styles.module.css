@@ -1,0 +1,24 @@
+.cardBrandContainer {
+  height: 9.8125rem;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  z-index: 0;
+}
+
+.cardBrandContainer::after {
+  content: '';
+
+  width: 20rem;
+  height: 20rem;
+
+  position: absolute;
+  z-index: -1;
+
+  background: var(--gradient);
+  filter: blur(75px);
+}

@@ -1,0 +1,45 @@
+:root {
+  --gradient: linear-gradient(
+      rgba(255, 30, 86, .15),
+      rgba(196, 58, 196, .10)
+    );
+
+  --text: #F3F4F6;
+  --text-opacity: rgba(255, 255, 255, .10);
+
+  --background: #000000;
+
+  --border-effect: conic-gradient(from 0deg, pink, purple, blue, black);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--background);
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  #root {
+    flex-direction: column;
+  }
+}

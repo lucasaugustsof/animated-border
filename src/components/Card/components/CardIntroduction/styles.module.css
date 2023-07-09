@@ -1,0 +1,9 @@
+.cardIntroductionContainer {
+  height: 9.8125rem;
+
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: .75rem;
+}
